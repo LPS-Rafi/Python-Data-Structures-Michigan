@@ -4,4 +4,4 @@ text = "X-DSPAM-Confidence:    0.8475"
 pos_start = text.find(':') + 1  # Find the position of ':' and move one character forward
 number_str = text[pos_start:].strip()  # Slice from the position and strip whitespace
 number = float(number_str)  # Convert the extracted value to a floating point number
-print(number)  # Print the floating point number
+print("The number is:",number)  # Print the floating point number
